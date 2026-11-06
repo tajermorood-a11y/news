@@ -1,0 +1,48 @@
+
+{
+  "expo": {
+    "name": "Matchday",
+    "slug": "matchday-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "matchday",
+    "icon": "./assets/icon.png",
+
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101827"
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.matchday.predictions"
+    },
+
+    "android": {
+      "package": "com.matchday.predictions",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101827"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": true
+    },
+
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+
+    "plugins": [
+      "expo-splash-screen"
+    ],
+
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
